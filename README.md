@@ -41,19 +41,8 @@ However, the remaining flip-flops should be made ready to toggle only when all l
 Developed by : Karan A
 Register no: 212223230099
 ```
-```verilog
-module ex11(out,clk,rstn);
-input clk,rstn;
-output reg [3:0]out;
-always @ (posedge clk)
-begin
-   if(!rstn)
-     out<=0;
-   else 
-     out <= out+1;
-end
-endmodule
-```
+![image](https://github.com/KaranArunachalam/SYNCHRONOUS-UP-COUNTER/assets/148321801/b3b9511d-7edb-4123-ad00-b106d6762645)
+
 
 
 **RTL LOGIC UP COUNTER**
